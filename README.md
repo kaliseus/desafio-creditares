@@ -1,30 +1,19 @@
-# creditares-desafio
+# Desafio Creditares 
 
  Manual de instalação desafio creditares
 
- Este projeto utiliza [Docker](https://code.visualstudio.com/) caso não senha por favor faça a instação de acordo com o site official
+ Este projeto utiliza [Docker](https://docs.docker.com/get-docker/) caso não possua ele já instalado faça a instação de acordo com o site official
 
-## Project Setup
+## Configuração do Project
 
-Subir o docker do projeto
+## Subir o docker do projeto
 ```sh
-Docker-compose up -d
+docker-compose up -d
 ```
 
-Decer o docker do projeto
+ Com o docker já rodando pode acessar [http://127.0.0.1:5173/](http://127.0.0.1:5173/)
+
+## Decer o docker do projeto
 ```sh
-Docker-compose down
+docker-compose down
 ```
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-# desafio-creditares
